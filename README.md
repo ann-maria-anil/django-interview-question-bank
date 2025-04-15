@@ -2,6 +2,7 @@
 
 A Django-based web application that dynamically generates interview questions categorized by job role, difficulty level, and question type. It provides personalized role-based questions, evaluates responses, and allows users to bookmark questions for future reference.
 
+
 ## 🔍 Features
 
 - 🎯 Role-specific interview questions  
@@ -11,7 +12,6 @@ A Django-based web application that dynamically generates interview questions ca
 - 📌 Bookmarking for future practice  
 - 👥 Clean UI with a structured question flow
 
-...
 
 ## 📚 Additional Resources
 
@@ -30,11 +30,14 @@ This repository includes various additional resources to help you understand and
 These resources will help you understand the **architecture** and **functionality** of the application in-depth, allowing you to **customize, expand, or contribute** to the project more effectively.
 
 
+
 ## 🧠 AI Integration
 
 This project uses [OpenAI's GPT model](https://platform.openai.com/) via the OpenAI API to generate relevant interview questions dynamically. Based on the user's selected job role, difficulty, and question type, the backend sends prompts to the model, which responds with context-aware questions in real time.
 
 > This makes the experience feel adaptive and personalized, mimicking real-life interview scenarios.
+
+
 
 ## 🛠️ Tech Stack
 
